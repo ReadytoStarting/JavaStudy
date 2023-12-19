@@ -28,16 +28,16 @@ class MyFrame extends JFrame{
 		//모든 데이터를 가져옴
 		
 		setLayout(new GridLayout(0, 2));
-		add(new JLabel("ID", JLabel.CENTER));
+		add(new JLabel("stuId", JLabel.CENTER));
 		add(id = new JTextField());
 		
-		add(new JLabel("TITLE", JLabel.CENTER));
+		add(new JLabel("name", JLabel.CENTER));
 		add(title = new JTextField());
 		
-		add(new JLabel("PUBLISHER", JLabel.CENTER));
+		add(new JLabel("tel", JLabel.CENTER));
 		add(publisher = new JTextField());
 		
-		add(new JLabel("YEAR", JLabel.CENTER));
+		add(new JLabel("dept", JLabel.CENTER));
 		add(year = new JTextField());
 		
 		add(new JLabel("PRICE", JLabel.CENTER));
